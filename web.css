@@ -2,26 +2,22 @@ body{
     background: url(backgound1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    margin:0%;
-    padding:0%;
 
+}
+.container{
+    padding: 0%;
+    display:flex;
+}
+li{
+    list-style-type: none;
+    display:inline-block;
+    color:white;
+    margin-right: 50px;
+    
+    
 }
 header{
-    background-color:rgba(221, 225, 225, 0.726);
-    padding: 10px;
-    margin: 0px;
-    display:flex;
-    justify-content: center;
-    justify-content: space-evenly;
-
+    background-color: black;
+    padding: 1%;
+    
 }
-section{
-    padding: 30%;
-}
-footer{
-    background-color: rgba(12, 13, 13, 0.566);
-    color:white;
-    margin: 0px;
-    padding:100px
-}
-

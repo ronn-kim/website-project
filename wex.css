@@ -1,0 +1,110 @@
+
+
+.parent{
+    position: relative;
+}
+.first{
+    position: absolute;
+    top:0%;
+}
+.nav .first li {
+display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.color{
+    background-color: blue;
+    height: 500px;
+    opacity: 0.6;
+}
+.nav .second{
+    position: absolute;
+    left: 30%;
+    top:0%
+}
+.nav{
+    background: url(education.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: hsl(0, 0%, 100%);
+}
+svg{
+    position: absolute;
+    top:40%;
+} 
+.nav .second li{
+    display: inline-block;
+    margin-right: 70px;
+
+    
+    
+}
+nav{
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.nav .side{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+
+}
+.nav .side li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+
+}.nav .content h1{
+    position: absolute;
+    top: 15%;
+    left:35%;
+    
+}
+.nav .content h3{
+    position:absolute;
+    width: 50%;
+    top: 30%;
+    left:35%;
+
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin-right:80px ;
+}
+.bottom .box{
+    
+
+}
+.btm .content{
+    text-align: center;
+    
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin-right: 80px;
+    top:80%;
+    left: 20%;
+}
+.prime {
+    left:48%;
+    top:60%
+}
+.prime2 {
+    left:42%;
+    top:65%
+}
+.content button{
+    position: absolute;
+    top:40%;
+    left: 45%;
+    background-color: rgba(236, 71, 71, 0.806);
+}
